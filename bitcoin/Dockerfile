@@ -1,4 +1,6 @@
 FROM debian:latest
+MAINTAINER Joakim Algrøy <joakimalgroy@gmail.com>
+
 
 RUN apt-get update
 RUN apt-get -y install wget
