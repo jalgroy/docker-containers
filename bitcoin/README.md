@@ -1,4 +1,4 @@
-# Bitcoind docker container
+## Bitcoind docker container
 
 Build:
 ```
