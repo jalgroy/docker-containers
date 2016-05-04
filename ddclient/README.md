@@ -1,11 +1,6 @@
-# DDClient docker container
+## DDClient docker container
 
-Build:
+Mount the folder containing ddclient.conf to /config, like so:
 ```
-sudo docker build -t ddclient .
-```
-
-Run:
-```
-sudo docker run -d ddclient
+sudo docker run -d /path/to/config:/config jalgroy/ddclient
 ```
