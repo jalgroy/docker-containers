@@ -1,4 +1,5 @@
 FROM debian:latest
+MAINTAINER Joakim Algrøy <joakimalgroy@gmail.com>
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq ddclient
 
